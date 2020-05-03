@@ -7,8 +7,6 @@ def turn_count(board)
     if board == "X" || "O"
       counter += 1
       return counter
-    else
-      break
     end
   end
 end
