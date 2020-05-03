@@ -2,16 +2,9 @@
 
 
 def turn_count(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  turn = board.size
-  turn_played = 0
-  loop do
-    if turn_played < turn
-      return turn_count(board)
-      turn_played += 1
-    else
-      break
-    end
+board = 1
+  until board = 9
+    counter += 1
   end
 end
 
