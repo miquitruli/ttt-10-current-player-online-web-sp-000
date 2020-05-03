@@ -1,11 +1,16 @@
 
-
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-
-  while board != "X" || "O"
-    return turn_count(board)
-    board = gets.chomp
+  board.each do 
+    counter = 0
+    if board == "X" || "O"
+      counter += 1
+    end
+  end
+end
+    
+    
   end
 end
 
