@@ -2,9 +2,10 @@
 
 
 def turn_count(board)
-board = 1
-  until board = 9
-    counter += 1
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  while board != "X" || "O"
+    return turn_count(board)
+    board = gets.chomp
   end
 end
 
