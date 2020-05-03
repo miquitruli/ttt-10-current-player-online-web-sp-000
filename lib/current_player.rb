@@ -2,7 +2,7 @@
 
 
 def turn_count(board)
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
   while board != "X" || "O"
     return turn_count(board)
     board = gets.chomp
